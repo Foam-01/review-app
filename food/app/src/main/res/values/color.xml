@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="my_light_primary">#4CAF50</color> <!-- Light Green -->
+    <color name="my_light_primary_variant">#388E3C</color> <!-- Dark Green -->
+    <color name="my_light_on_primary">#FFFFFF</color> <!-- White for text on primary color -->
+    <color name="my_dark_primary">#1B5E20</color> <!-- Dark Green for dark theme -->
+    <color name="my_dark_on_primary">#FFFFFF</color> <!-- White for text on primary color in dark theme -->
+</resources>

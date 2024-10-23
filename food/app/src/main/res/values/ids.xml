@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="welcomeText" type="id" />
+    <item name="nav_game" type="id" />
+    <item name="reviewContainer" type="id" />
+</resources>

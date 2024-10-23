@@ -1,0 +1,8 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.FoodPSRU" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimaryDark">@color/my_dark_on_primary</item>
+    </style>
+
+    <style name="Theme.FoodPSRU" parent="Base.Theme.FoodPSRU" />
+</resources>

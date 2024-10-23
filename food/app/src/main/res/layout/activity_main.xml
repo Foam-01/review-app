@@ -1,0 +1,91 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/login"
+    android:orientation="vertical"
+    android:gravity="center_vertical"> <!-- เพิ่ม gravity -->
+
+    <!-- Login Layout -->
+
+    <!-- Sign Up Layout -->
+
+    <LinearLayout
+        android:id="@+id/loginLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:visibility="visible"
+        android:layout_marginTop="250dp"> <!-- เพิ่ม margin -->
+
+        <EditText
+            android:id="@+id/etLoginEmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Email" />
+
+        <EditText
+            android:id="@+id/etLoginPassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Password"
+            android:inputType="textPassword" />
+
+        <Button
+            android:id="@+id/btnLogin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Login"
+            android:backgroundTint="@color/my_dark_primary"/>
+
+
+        <TextView
+            android:id="@+id/tvToSignUp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Don't have an account? Sign up" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/signUpLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:visibility="gone"
+        android:layout_marginTop="250dp"> <!-- เพิ่ม margin -->
+
+        <EditText
+            android:id="@+id/etSignUpEmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Email" />
+
+        <EditText
+            android:id="@+id/etSignUpPassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Password"
+            android:inputType="textPassword" />
+
+        <EditText
+            android:id="@+id/etSignUpConfirmPassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Confirm Password"
+            android:inputType="textPassword" />
+
+        <Button
+            android:id="@+id/btnSignUp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Sign Up"
+            android:backgroundTint="@color/my_dark_primary"/>
+
+        <TextView
+            android:id="@+id/tvToLogin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Already have an account? Login" />
+
+    </LinearLayout>
+</LinearLayout>

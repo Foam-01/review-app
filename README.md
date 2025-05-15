@@ -22,10 +22,10 @@ FoodPSRU is an Android application for browsing food menus, writing reviews, boo
 1. Clone the repository:  
    ```bash
    git clone https://github.com/Foam-01/review-app.git
-Open the project in Android Studio.
+2. Open the project in Android Studio.
 
-Let Gradle sync and download dependencies.
+3. Let Gradle sync and download dependencies.
 
-Connect an Android device or start an emulator.
+4. Connect an Android device or start an emulator.
 
-Run the app via the Run button or press Shift + F10.
+5. Run the app via the Run button or press Shift + F10.

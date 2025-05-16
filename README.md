@@ -29,3 +29,13 @@ FoodPSRU is an Android application for browsing food menus, writing reviews, boo
 4. Connect an Android device or start an emulator.
 
 5. Run the app via the Run button or press Shift + F10.
+
+![image](https://github.com/user-attachments/assets/938c2939-1059-40f8-a1a6-77c0d09da01d)
+![image](https://github.com/user-attachments/assets/e0a97c3c-7f24-4277-8564-fc129c6b89a6)
+
+
+
+
+
+
+
